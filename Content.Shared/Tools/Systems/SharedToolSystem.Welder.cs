@@ -212,14 +212,14 @@ public abstract partial class SharedToolSystem
         if (!SolutionContainerSystem.TryGetSolution(entity.Owner, entity.Comp.FuelSolutionName, out _, out var solution))
         {
             args.Cancelled = true;
-            args.Popup = Loc.GetString("welder-component-no-fuel-message");
+            args.Popup = Loc.GetString("welder-component-no-fuel-message", ("owner", entity.Owner), ("fuelReagent", entity.Comp.FuelReagent));
             return;
         }
 
         var fuel = solution.GetTotalPrototypeQuantity(entity.Comp.FuelReagent);
         if (fuel == FixedPoint2.Zero || fuel < entity.Comp.FuelLitCost)
         {
-            args.Popup = Loc.GetString("welder-component-no-fuel-message");
+            args.Popup = Loc.GetString("welder-component-no-fuel-message", ("owner", entity.Owner), ("fuelReagent", entity.Comp.FuelReagent));
             args.Cancelled = true;
         }
     }
