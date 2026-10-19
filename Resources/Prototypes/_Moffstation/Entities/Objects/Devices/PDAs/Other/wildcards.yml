@@ -1,0 +1,11 @@
+﻿- type: entity
+  parent: ChefPDA # Starlight - Swapped PizzaioloPDA to ChefPDA as we don't have alt chef PDAs
+  id: ArnoldsPizzaPDA
+  name: Arnold's Pizza PDA
+  description: The official PDA for Arnold's Pizza employees. Wawa!
+  components:
+    - type: Pda
+      id: VisitorIDCard
+    - type: Tag #  Ignore Chameleon tags
+      tags:
+        - DoorBumpOpener

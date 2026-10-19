@@ -1,0 +1,8 @@
+﻿#- type: !PartialOnly entity
+#  id: RandomPosterLegit
+#  components:
+#    - type: RandomSpawner
+#      prototypes:
+#        - id: PosterArnoldsPizzaAdvertisement
+#        - id: PosterArnoldsPizzaHiring
+#        - id: PosterArnoldsPizzaMissing

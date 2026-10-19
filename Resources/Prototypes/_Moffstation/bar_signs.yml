@@ -1,0 +1,7 @@
+﻿- type: barSign
+  id: ArnoldsPizza
+  name: barsign-prototype-name-arnolds-pizza
+  icon:
+    sprite: _Moffstation/Structures/Wallmounts/barsign.rsi
+    state: Arnolds_Pizza
+  description: barsign-prototype-description-arnolds-pizza

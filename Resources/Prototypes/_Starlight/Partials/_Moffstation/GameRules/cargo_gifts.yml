@@ -1,0 +1,6 @@
+﻿#- type: !PartialOnly entity
+#  id: CargoGiftsTable
+#  table:
+#    children:
+#      - id: !Remove GiftsPizzaPartyLarge
+#      - id: !Remove GiftsPizzaPartySmall

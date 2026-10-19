@@ -1,0 +1,8 @@
+﻿#- type: !PartialOnly entity
+#  id: ClothingBackpackElectropack
+#  components:
+#    - type: Tag
+#      tags:
+#        - WhitelistChameleon
+#        - Backpack
+#        - ScurretWearable # Moffstation - Electrocute the Scurrets
